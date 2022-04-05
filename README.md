@@ -27,3 +27,19 @@ After that's running you can install the plantuml extension on your remote box u
 ### Previewing your diagrams
 
 After you've got the container running and the extension set up.  Start editing a `.puml` file, bring up the command palette and search for `PlantUML: Preview Current Diagram`.  It will open a window to the side of your document that shows a rendered version.
+
+## Sample output
+
+Here's a simple example
+```@startuml simple
+'left to right direction
+A -> (B)
+(B) <---> (C)
+(B) -> (D)
+(D) ..> (E)
+@enduml
+```
+
+and here's an example of how it looks
+
+![simple.puml](diagrams/simple.png)
