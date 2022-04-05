@@ -1,2 +1,2 @@
 # plantuml
-My plants
+Some plantuml sandboxing

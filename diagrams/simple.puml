@@ -1,0 +1,7 @@
+@startuml simple
+'left to right direction
+A -> (B)
+(B) <--> (C)
+(B) -> (D)
+(D) ..> (E)
+@enduml
